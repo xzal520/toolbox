@@ -21,6 +21,8 @@
 
 > 两个版本功能完全一致，只是运行时打包方式不同。体积比一般 WinForms 程序大，是因为系统 OCR 需要把 Windows SDK 投影程序集（`Microsoft.Windows.SDK.NET.dll`，约 20 MB）打进单文件。
 
+**在线下载**：[GitHub Releases](https://github.com/xzal520/toolbox/releases) 的附件使用英文文件名（GitHub 对中文附件名支持不佳）：`Toolbox.exe` 对应完整版 `实用工具箱.exe`，`Toolbox-Lite.exe` 对应轻量版 `实用工具箱 轻量版.exe`。下载后可直接双击运行，也可以改回中文名。
+
 - **双击**：打开主窗口（即使设置里勾了「开机自启时直接驻留托盘」，手动双击也一律显示窗口）
 - **再次双击**：程序是单实例，会把已运行的窗口从托盘/后台唤回前台，不会开第二个
 - **管理员权限**：只有安装/卸载系统级右键菜单（写 HKLM）时需要；设置里会自动弹 UAC 提权
